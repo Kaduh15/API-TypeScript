@@ -5,6 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "dev": "nodemon --exec ts-node src/server",
+    "start": "npx tsc && node lib/server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "lint": "tslint -c tslint.json src/**/*.ts",
